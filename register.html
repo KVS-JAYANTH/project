@@ -27,9 +27,9 @@
     <div class="wrapper">
 <h1> <b>Registration Form</b></h1><br>
 <form name="regform" method="get" action="login.html">
-FIRST NAME: <input type="text" name="un" size="20" maxlength="30"> <br><br>
-MIDDLE NAME:<input type="text" name="un" size="20" maxlength="30"> <br><br>
-LAST NAME:  <input type="text" name="un" size="20" maxlength="30"> <br><br>
+FIRST NAME: <input type="text" name="un" size="20" maxlength="30" required size="20"> <br><br>
+MIDDLE NAME:<input type="text" name="un" size="20" maxlength="30" required size="20"> <br><br>
+LAST NAME:  <input type="text" name="un" size="20" maxlength="30" required size="20"> <br><br>
 STATE:    <select>
 <option selected disabled>Select one</option>
 <option value="bt">TELENGANA</option>
@@ -42,6 +42,7 @@ CITY:    <select>
 <option value="ot">VIZAG</option>
 <option value="pt">KURNOOL</option>
 <option value="gt">KARIMNAGAR</option>
+<option value="kt">Other</option>
 </select><BR><BR>
 USER-TYPE:    <select>
 <option selected disabled>Select one</option>
@@ -52,16 +53,13 @@ USER-TYPE:    <select>
 <input type="radio"> Male <br> &nbsp;&nbsp;
 <input type="radio">Female <br> &nbsp;
 <input type="radio"> Other <br><br><br>
-E-Mail: <input type="text" name="mail" placeholder="Email" size="20" maxlength="30">
+E-Mail: <input type="text" name="mail" placeholder="Email" size="20" maxlength="30" required size="20">
 <br><br>
-ADDRESS: <input type="text" name="loc" placeholder="Address" size="20"maxlength="30">
+ADDRESS: <input type="text" name="loc" placeholder="Address" size="20" maxlength="30" required size="20">
 <br><br>
-MOBILE NO: <input type="text" name="phno" placeholder="Contact Number" size="20"
-maxlength="30"> <br><br>
-PASSWORD: <input type="password" name="pwd" placeholder="password" size="20"
-maxlength="30"> <br><br>
-RE-TYPE PASSWORD:<input type="password" name="cpwd" placeholder="Confirm
-password" size="20" maxlength="30"> <br><br>
+MOBILE NO: <input type="text" name="phno" placeholder="Contact Number" size="20" maxlength="30" required size="20"> <br><br>
+PASSWORD: <input type="password" name="pwd" placeholder="password" size="20" maxlength="30" required size="20">> <br><br>
+RE-TYPE PASSWORD:<input type="password" name="cpwd" placeholder="Confirm password" size="20" maxlength="30" required size="20"> <br><br>
 <input type="submit" value="SUBMIT"><br>
 </form>
     </div>
